@@ -1,7 +1,9 @@
 <template name="snippets">
   <div class="container">
+    <ul class="list-group">
     {{#each snippets}}
-      <div class="snippet">{{text}}</div>
+      <li class="list-group-item">{{text}}</li>
     {{/each}}
+    </ul>
   </div>
 </template>
